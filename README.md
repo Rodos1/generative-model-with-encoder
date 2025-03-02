@@ -42,6 +42,9 @@ encoder = ConditionalPhaseEncoder(latent_dim, n, num_classes)
 Каждое изображение из оригинального MNIST было преобразован в тензор, а в процессе обучения метка (label) каждого изображения MNIST была преобразован в one-hot вектор 
 ([3] --> [0,0,0,1,0,0,0,0,0,0])
 
+-------
+15 эпох, изображения 64х64:
+
 ![15](https://github.com/user-attachments/assets/2f368d61-a8ce-449e-8f60-a51b0aaa848f)
 ![15, only 5](https://github.com/user-attachments/assets/83d92c5b-2e21-4ee6-9b83-70ec2581917a)
 
